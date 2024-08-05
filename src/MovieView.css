@@ -1,0 +1,16 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+.movie-view {
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+}
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  font-weight: 700;
+}

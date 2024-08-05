@@ -1,0 +1,45 @@
+.movie-card {
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  margin-bottom: 30px;
+  width: 300px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.movie-card:hover {
+  transform: scale(1.01);
+}
+.movie-poster {
+  aspect-ratio: 1.2;
+  width: 300px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.movie-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.movie-rating {
+  margin-bottom: 10px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+}
+.movie-rating svg {
+  fill: #a67c00;
+}
+.movie-overview {
+  width: 90%;
+  margin: 0 auto;
+  text-align: justify;
+  height: 70px;
+  overflow: hidden;
+  font-size: 12px;
+  text-overflow: ellipsis;
+}

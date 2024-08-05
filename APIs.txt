@@ -1,0 +1,15 @@
+TMDB:
+search: https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=${query}&page=${page}
+list: https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&sort_by=popularity.desc&page=${page}
+
+
+vidsrc iframe: <iframe
+                id="player_iframe"
+                src={`https://vidsrc.net/embed/movie?tmdb=${id}&color=fff`}
+                frameborder="0"
+                allowfullscreen="yes"
+                style={{ width: "100%", height: "100%" }}
+                onload="remove_loading(this)"
+                data-ref=""
+                referrerpolicy="origin"
+              ></iframe>
