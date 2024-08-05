@@ -1,0 +1,25 @@
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 15px 0;
+  background-color: #141414;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 2;
+}
+.web-info {
+  margin: 0 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.search-container {
+  margin: 0 10px;
+}
+.search {
+  outline: none;
+}
